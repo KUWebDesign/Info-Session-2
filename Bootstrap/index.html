@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Bootstrap Boot Camp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Links to stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <!-- Navigation Bar Brand. This can be a company logo or name... really whatever you want! -->
+      <a class="navbar-brand" href="#"><img src="images/bearicon.svg" width="30" height="30"></a>
+      <!-- This is a hamburger menu. It takes our navbar links and creates a collapsing dropdown menu when on smaller resolutions. -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse container -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Unordered list of links -->
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Top 10 Bears of the Week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Container for the Jumbotron -->
+    <main role="main" class="container-fluid">
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <!-- Main Header -->
+        <h1 class="display-3">Bears</h1>
+        <!-- Lead detail -->
+        <p class="lead">Bears are carnivoran mammals of the family Ursidae.</p>
+        <!-- Horizontal Rule -->
+        <hr class="my-4">
+        <!-- Unstyled detail -->
+        <p>Bear taxon names such as Ursidae and Ursus come from Latin Ursus/Ursa, he-bear/she-bear.</p>
+        <!-- Lead Paragraph containing buttons -->
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+      </div>
+    </main>
+
+    <!-- A simple banner. This isn't a Bootstrap class, it's just one I defined. -->
+    <div class="simple-banner">
+      <h1>Look at these bears!</h1>
+      <p class="lead">Don't feed them.</p>
+    </div>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ul>
+      <!-- Slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bear1.jpg">
+          <!-- You can add captions and sub captions to your carousel. Uncomment the line below to see an example. -->
+          <!-- <div class="carousel-caption"> <h3>LVL 1 Grizzly Bear</h3> <p>Bear bear bear bear.</p></div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="images/bear2.jpg">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bear3.jpg">
+        </div>
+      </div>
+
+      <!-- Left / Right Buttons -->
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <br><br>
+
+    <!-- A simple banner. This isn't a Bootstrap class, it's just one I defined. -->
+    <div class="simple-banner">
+      <h1>Simple Bootstrap Grid Layout</h1>
+      <p class="lead">Responsive to viewport dimensions as well!</p>
+    </div>
+
+    <!-- Grid Layout -->
+    <div class="container-fluid">
+      <!-- Grid Row -->
+        <div class="row">
+          <div class="col-sm-6 light-brown">50%</div>
+          <div class="col-sm-6 brown">50%</div>
+        </div>
+        <br>
+
+        <!-- Grid Row -->
+        <div class="row">
+          <div class="col-sm-4 light-brown">33.33%</div>
+          <div class="col-sm-4 brown">33.33%</div>
+          <div class="col-sm-4 light-brown">33.33%</div>
+        </div>
+        <br>
+
+        <!-- Grid Row -->
+        <div class="row">
+          <div class="col-sm light-brown">25%</div>
+          <div class="col-sm brown">25%</div>
+          <div class="col-sm light-brown">25%</div>
+          <div class="col-sm brown">25%</div>
+        </div>
+        <br>
+
+        <!-- Grid Row -->
+        <div class="row">
+          <div class="col light-brown">25%</div>
+          <div class="col brown">25%</div>
+          <div class="col light-brown">25%</div>
+          <div class="col brown">25%</div>
+        </div>
+    </div>
+
+    <!-- Links to scripts -->
+    <!-- I like to put them down here for faster loading -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

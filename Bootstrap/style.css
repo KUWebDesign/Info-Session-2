@@ -1,0 +1,52 @@
+body {
+  padding-top: 5rem;
+  background-color: rgb(247, 238, 215);
+}
+
+.simple-banner {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 50vw;
+  max-height: 50vw;
+}
+
+#myCarousel {
+  height: 50vw !important;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  /*background-color: pink;*/
+}
+
+.bg-dark {
+  background-color: rgb(135, 122, 97) !important;
+}
+
+.jumbotron {
+  background-color: rgb(214, 190, 143);
+}
+
+.btn {
+  background-color: rgb(160, 142, 107);
+  border-color: rgb(160, 142, 107, 0);
+}
+
+.btn:hover {
+  background-color: rgb(135, 122, 97);
+  border-color: rgb(135, 122, 97, 0);
+}
+
+.brown {
+  background-color:rgb(160, 142, 107);
+}
+
+.light-brown {
+  background-color:rgb(214, 190, 143);
+}
+
+/*.col-sm {
+  max-width: 75%;
+}*/

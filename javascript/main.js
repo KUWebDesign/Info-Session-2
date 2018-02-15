@@ -24,3 +24,7 @@ function catApproved(num)
           return(cat + " approves of " + things[num]);
      }
 }
+
+console.log(catApproved(3));
+console.log(catApproved(7));
+console.log(catApproved(0));
